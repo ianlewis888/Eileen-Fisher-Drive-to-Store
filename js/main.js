@@ -1,7 +1,7 @@
 var mapsApiKey = "AIzaSyD-u97DVBBkrS1j2_Q654gfZ24xdGqcEl8";
 
 function initMap() {
-  var pin = {lat: 40.6873014, lng: -73.9934601};
+  var pin = {lat: 40.6872112, lng: -73.9913517};
   var map = new google.maps.Map(document.getElementById('map'), {
     zoom: 13,
     center: pin,
