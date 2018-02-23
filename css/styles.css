@@ -1,0 +1,95 @@
+#pop-in {
+  color: #004990;
+  border: solid 1px #000000;
+  outline: none;
+  position: absolute;
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+  background-color: #C9C9C9;
+}
+
+.panel-left {
+  position: absolute;
+  left: 0;
+  width: 60%;
+  height: 100%;
+  top: 0;
+  background-image: url("../images/BG Image.png");
+  background-size: cover;
+  color: #000000;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.making-space {
+  position: absolute;
+  top: 40px;
+  left: 225px;
+  width: 210px;
+  opacity: 0;
+}
+.for-text {
+  position: absolute;
+  text-align: right;
+  left: 225px;
+  top: 174px;
+  width: 210px;
+}
+.great-clothes {
+  position: relative;
+  height: 70px;
+  display: none;
+}
+.future {
+  position: relative;
+  height: 70px;
+  display: none;
+}
+.assumptions {
+  position: relative;
+  height: 78px;
+  display: none;
+}
+
+.cta-container {
+  text-align: right;
+  position: absolute;
+  top: 292px;
+  width: 210px;
+  left: 225px;
+}
+
+.cta {
+  width: 210px;
+  position: relative;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+          box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.2);
+  -webkit-transition: -webkit-box-shadow 300ms ease;
+  transition: -webkit-box-shadow 300ms ease;
+  transition: box-shadow 300ms ease;
+  transition: box-shadow 300ms ease, -webkit-box-shadow 300ms ease;
+  opacity: 0;
+}
+
+.cta:hover { -webkit-box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5); box-shadow: 0px 5px 10px 0px rgba(0,0,0,0.5); }
+
+.logo {
+  position: absolute;
+  left: 320px;
+  top: 502.25px;
+  width: 115px;
+  opacity: 0;
+}
+
+#map {
+  position: absolute;
+  left: 60%;
+  top: 0;
+  width: 40%;
+  height: 100%;
+  -webkit-box-shadow: -5px 0px 46px 0px rgba(0,0,0,0.2);
+          box-shadow: -5px 0px 46px 0px rgba(0,0,0,0.2);
+}
